@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +19,7 @@ header {
     background-color: rgb(47, 113, 167);
     margin: 0;
     width: 100%;
+    justify-content: center;
 }
 
 #name {
@@ -56,9 +62,23 @@ ul li a:hover {
   text-decoration: underline var(--main-color) solid;
 }
 
+#quote a:link {
+  color: #42a5f0;
+}
+
+#quote a:visited {
+  color: #42a5f0;
+}
+
+#quote a:hover {
+  color: var(--main-color);
+  text-decoration: underline var(--main-color) solid;
+}
+
 #hero {
     background-color: #C8E6FD;
     display: flex;
+    justify-content: center;;
 }
 
 #headshot {

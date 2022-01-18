@@ -95,6 +95,10 @@ h3 {
     margin-right: 10px;
 }
 
+#border-left-about > p {
+    font-size: 25px;
+}
+
 #border-left-work {
     border-left: 5px solid var(--main-color);
     display: flex;

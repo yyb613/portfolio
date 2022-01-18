@@ -1,6 +1,6 @@
 :root {
-    --main-color: blue;
-    --secondary-color: red;
+    --main-color: #175585;
+    --secondary-color: #7CC5FC;
 }
 
 body {
@@ -19,6 +19,7 @@ header {
 #name {
     display: flex;
     margin-left: 25px;
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -27,17 +28,17 @@ header nav {
     align-items: center;
 }
 
-header nav ul {
+ul {
     list-style-type: none;
 }
 
-header nav ul li {
+ul li {
     display: inline;
     font-size: 30px;
     padding: 0px 10px;
 }
 
-header nav ul li a {
+ul li a {
     text-decoration: underline var(--secondary-color) solid;
     text-decoration-thickness: 5px;
 }
@@ -56,7 +57,7 @@ ul li a:hover {
 }
 
 #hero {
-    background-color: violet;
+    background-color: #C8E6FD;
     display: flex;
 }
 

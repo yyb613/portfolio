@@ -1,7 +1,71 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(47, 113, 167);
+    margin: 0;
+}
+
+#name {
+    display: flex;
+}
+
+header nav {
+    /* margin-left: auto; */
+    display: flex;;
+    align-items: center;
+}
+
 header nav ul {
-    list-style-type: none;;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+#hero {
+    background-color: violet;
+}
+
+body {
+    margin: 0;
+}
+
+#about {
+    display: flex;
+}
+
+#work {
+    display: flex;
+}
+
+h3 {
+    display: inline;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align-last: right;
+}
+
+.border-left {
+    border-left: 5px solid green;
+    /* display: flex; */
+    align-items: center;
+}
+
+#contact {
+    display: flex;
 }
 
 #contact ul {
-    list-style-type: none;;
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    display: inline;
 }

@@ -85,6 +85,11 @@ ul li a:hover {
   text-decoration: underline var(--main-color) solid;
 }
 
+#quote a:focus {
+  color: var(--secondary-color);
+  text-decoration: underline var(--secondary-color) solid;
+}
+
 #hero {
     background-color: #C8E6FD;
     display: flex;

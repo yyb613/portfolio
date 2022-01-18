@@ -13,15 +13,17 @@ header {
     flex-direction: row;
     background-color: rgb(47, 113, 167);
     margin: 0;
+    width: 100%;
 }
 
 #name {
     display: flex;
+    margin-left: 25px;
 }
 
 header nav {
-    /* margin-left: auto; */
-    display: flex;;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -35,6 +37,20 @@ header nav ul li {
 
 #hero {
     background-color: violet;
+    display: flex;
+}
+
+#headshot {
+    margin-left: 25px;
+    min-width: 0;
+    min-height: 0;
+}
+
+#quote {
+  width: 500px;
+  height: 100%;
+  margin-left: 25px;
+  min-width: 0;
 }
 
 .module {
@@ -53,7 +69,8 @@ header nav ul li {
 }
 
 h1 {
-    color: var(--main-color)
+    color: var(--main-color);
+    font-size: 40px;
 }
 
 h3 {

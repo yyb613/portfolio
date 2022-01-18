@@ -72,10 +72,12 @@ ul li a:hover {
 
 #quote a:link {
   color: #42a5f0;
+  text-decoration: none;
 }
 
 #quote a:visited {
   color: #42a5f0;
+  text-decoration: none;
 }
 
 #quote a:hover {

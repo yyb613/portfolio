@@ -187,14 +187,37 @@ h3 {
     flex-basis: 0;
     height: 200px;
     margin: 10px 10px 0px 0px;
-    background-image: url('https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image-300x225.png');
-    background-repeat: no-repeat;
-    background-position: center;
     opacity: 0.7;
 }
 
 .proj-card:hover {
     opacity: 1;
+}
+
+#proj-2 {
+   background-image: url('/assets/images/lights.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+#proj-3 {
+   background-image: url('/assets/images/calculator.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#proj-4 {
+   background-image: url('/assets/images/puzzle.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#proj-5 {
+   background-image: url('/assets/images/running.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .break {
@@ -205,11 +228,11 @@ h3 {
 
 .box-on-top {
     position: relative;
-    /* bottom: 40px;  */ /* NOT WORKING! */
+    bottom: 0;  /* NOT WORKING! */
     background-color: var(--secondary-color);
     width: fit-content;
     padding: 10px;
-    opacity: 1; /* NOT WORKING! */
+    opacity: 1.0; /* NOT WORKING! */
     z-index: 0;
 }
 

@@ -8,7 +8,20 @@
 /* Sets margin for body */
 body {
     margin: 0;
+    font-family: "Gill Sans"; 
 }
+
+/**********************************************
+QUESTION: 
+    HOW DO I ENSURE THAT USERS WILL BE
+    ABLE TO VIEW MY FONT-FAMILY?  
+
+    I AM ABLE TO VIEW "Gill Sans" ON MY
+    BROWSER. SHOULD I LINK IT ANYWAYS
+    IN THE HEADER?
+
+    DOES LINKING TO GOOGLE FONTS AFFECT PERFORMANCE?
+***********************************************/
 
 /* Sets margin for main content */
 main {
@@ -37,11 +50,12 @@ header {
     margin-left: 25px;
     color: var(--secondary-color);
     text-decoration: none;
+    font-family: "Kaushan Script";
 }
 
 #name > h1 {
     color: var(--secondary-color);
-    font-size: 40px;
+    font-size: 55px;
 }
 
 /* Nav menu */
@@ -99,6 +113,7 @@ ul li a:focus {
   height: 100%;
   margin-left: 25px;
   min-width: 0;
+  font-family: 'Dancing Script'
 }
 
 /* Quote link formatting */
@@ -161,7 +176,7 @@ h3 {
     justify-content: center;
     align-items: center;
     /* margin-right: 10px; */
-    width: 180px;
+    width: 250px;
     background-color: #C8E6FD;
     text-align: center;
 }

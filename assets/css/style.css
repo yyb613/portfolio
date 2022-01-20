@@ -284,7 +284,7 @@ h3 {
 /* Box contains: proj-title + tech-used */
 .box-on-top {
     position: relative;
-    top: 60%;  /*** NOT WORKING! ***/
+    top: 50%;
     background-color: var(--main-color);
     width: fit-content;
     padding: 10px;
@@ -293,6 +293,10 @@ h3 {
     color: var(--main-color);
     text-decoration: none;
     text-align: center;
+}
+
+#box-on-top-main {
+    top: 66.5%;
 }
 
 /* Project title  */
@@ -351,7 +355,8 @@ h3 {
 @media only screen and (max-width: 600px) {
 /* .module {
     border: red 1px solid;
-} */
+    */
+} 
 
 /* Medium devices (landscape tablets, 768px and below) */
 @media only screen and (max-width: 768px) {

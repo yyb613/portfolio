@@ -171,7 +171,7 @@ h3 {
 
 /* ABOUT ME */
 #about {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 10.5vw;
 }
 
 #border-left-about {
@@ -190,7 +190,7 @@ h3 {
 
 /* WORK */
 #work {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 10.5vw;
 }
 
 #border-left-work {
@@ -392,6 +392,10 @@ h3 {
 }
 
 @media only screen and (max-width: 1280px) {
+    #about, #work {
+        scroll-margin-top: 15vw;
+    }
+
     #linkedin {
         margin-top: 20px;
     }

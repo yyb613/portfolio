@@ -218,6 +218,7 @@ h3 {
 
 .proj-card-main:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 /* Other project cards */
@@ -232,6 +233,7 @@ h3 {
 
 .proj-card:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 #proj-2 {
@@ -290,15 +292,13 @@ h3 {
     color: var(--secondary-color);
 }
 
+
 /* Tech used */
 .tech-used {
     color: #7692a7;
 }
 
 /* GitHub Icon */
-#git1 {
-    z-index: 10; 
-}
 .fa-github {
     color: white;
     cursor: pointer;

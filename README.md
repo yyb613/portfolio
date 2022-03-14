@@ -13,7 +13,7 @@ For more information on this license, please visit [their website](https://www.m
 ## Deployment
 [Deployment Link](https://yyb613.github.io/portfolio)
 
-![screenshot](assets/images/screenshot.png)
+![screenshot](assets/images/screenshot-updated.png)
 
 ## Contact
 If you have any questions, you can find me [here](https://yyb613.github.io/portfolio).
